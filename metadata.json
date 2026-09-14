@@ -1,0 +1,6 @@
+{
+  "name": "Kéo Co Tri Thức",
+  "description": "Trò chơi Kéo Co trí tuệ đối kháng với 10 câu hỏi kiến thức nhanh, kéo dây giành lợi thế chiến thắng, bảng xếp hạng trực tuyến, âm thanh sống động và hỗ trợ chơi offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
