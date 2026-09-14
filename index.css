@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-display {
+  font-family: 'Baloo 2', cursive, sans-serif;
+}
+
+@keyframes ropePull {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-3px) rotate(-1deg); }
+  75% { transform: translateY(3px) rotate(1deg); }
+}
+
+.animate-rope-pull {
+  animation: ropePull 0.4s ease-in-out infinite;
+}
+
+@keyframes pulseGlowRed {
+  0%, 100% { box-shadow: 0 0 15px rgba(239, 68, 68, 0.4); }
+  50% { box-shadow: 0 0 25px rgba(239, 68, 68, 0.8); }
+}
+
+@keyframes pulseGlowBlue {
+  0%, 100% { box-shadow: 0 0 15px rgba(59, 130, 246, 0.4); }
+  50% { box-shadow: 0 0 25px rgba(59, 130, 246, 0.8); }
+}
+
+.glow-red {
+  animation: pulseGlowRed 1.5s ease-in-out infinite;
+}
+
+.glow-blue {
+  animation: pulseGlowBlue 1.5s ease-in-out infinite;
+}
+
